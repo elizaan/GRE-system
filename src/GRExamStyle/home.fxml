@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="588.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GRExamStyle.HomeScreenController">
+   <children>
+      <Button fx:id="getexambutton" layoutX="468.0" layoutY="284.0" mnemonicParsing="false" onAction="#GetxmAction" prefHeight="38.0" prefWidth="70.0" text="Get Exam" />
+      <Label fx:id="usertext" layoutX="9.0" layoutY="55.0" prefHeight="38.0" prefWidth="423.0" wrapText="true" />
+      <Label layoutX="9.0" layoutY="96.0" prefHeight="112.0" prefWidth="150.0" text="You have logged in successfully!!" wrapText="true" />
+      <ChoiceBox fx:id="choiceBox" layoutX="192.0" layoutY="284.0" prefHeight="38.0" prefWidth="263.0" />
+   </children>
+</AnchorPane>

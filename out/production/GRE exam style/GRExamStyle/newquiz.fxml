@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane hbarPolicy="ALWAYS" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="644.0" vbarPolicy="ALWAYS" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GRExamStyle.QuizScreenController">
+   <content>
+      <VBox alignment="BASELINE_LEFT" prefHeight="2020.0" prefWidth="2000.0" spacing="5.0" style="-fx-background-color: #abcdef;">
+         <children>
+            <TextField editable="false" prefHeight="56.0" prefWidth="765.0" text="Select Exactly 1 Answer Choice">
+               <font>
+                  <Font size="39.0" />
+               </font>
+            </TextField>
+            <VBox alignment="TOP_CENTER" prefHeight="53.0" prefWidth="2000.0">
+               <children>
+                  <Label fx:id="score" alignment="TOP_LEFT" prefHeight="17.0" prefWidth="91.0" />
+                  <Button fx:id="submit" mnemonicParsing="false" onAction="#submit_clicked" text="SUBMIT" textAlignment="CENTER" />
+               </children>
+            </VBox>
+            <VBox minHeight="-Infinity" minWidth="-Infinity" prefWidth="2000.0">
+               <children>
+                  <Label fx:id="timerLabel" prefHeight="35.0" prefWidth="188.0" />
+               </children>
+            </VBox>
+            <VBox prefHeight="84.0" prefWidth="2000.0" spacing="5.0">
+               <children>
+                  <Label fx:id="q1" prefHeight="27.0" prefWidth="2000.0" textFill="#030303">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+                  <RadioButton fx:id="b1op1" layoutX="15.0" layoutY="53.0" mnemonicParsing="false" onAction="#radio_bottun_clicked1" prefHeight="17.0" prefWidth="515.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="option1" />
+                     </toggleGroup></RadioButton>
+                  <RadioButton fx:id="b1op2" layoutX="15.0" layoutY="75.0" mnemonicParsing="false" onAction="#radio_bottun_clicked1" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option1">
+                     <font>
+                        <Font size="18.0" />
+                     </font></RadioButton>
+                  <RadioButton fx:id="b1op3" layoutX="15.0" layoutY="97.0" mnemonicParsing="false" onAction="#radio_bottun_clicked1" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option1" VBox.vgrow="ALWAYS">
+                     <font>
+                        <Font size="18.0" />
+                     </font></RadioButton>
+                  <RadioButton fx:id="b1op4" mnemonicParsing="false" onAction="#radio_bottun_clicked1" prefHeight="27.0" prefWidth="515.0" toggleGroup="$option1">
+                     <font>
+                        <Font size="18.0" />
+                     </font></RadioButton>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </VBox>
+            <VBox layoutX="10.0" layoutY="124.0" prefHeight="84.0" prefWidth="2000.0" spacing="5.0">
+               <children>
+                  <Label fx:id="q2" prefHeight="33.0" prefWidth="2000.0" textFill="#030303">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+                  <RadioButton fx:id="b2op1" mnemonicParsing="false" onAction="#radio_bottun_clicked2" prefHeight="17.0" prefWidth="515.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="option2" />
+                     </toggleGroup></RadioButton>
+                  <RadioButton fx:id="b2op2" layoutX="15.0" layoutY="53.0" mnemonicParsing="false" onAction="#radio_bottun_clicked2" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option2">
+                     <font>
+                        <Font size="18.0" />
+                     </font></RadioButton>
+                  <RadioButton fx:id="b2op3" layoutX="15.0" layoutY="75.0" mnemonicParsing="false" onAction="#radio_bottun_clicked2" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option2">
+                     <font>
+                        <Font size="18.0" />
+                     </font></RadioButton>
+                  <RadioButton fx:id="b2op4" layoutX="15.0" layoutY="97.0" mnemonicParsing="false" onAction="#radio_bottun_clicked2" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option2">
+                     <font>
+                        <Font size="18.0" />
+                     </font></RadioButton>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </VBox>
+            <VBox layoutX="10.0" layoutY="257.0" prefHeight="84.0" prefWidth="2000.0" spacing="5.0">
+               <children>
+                  <Label fx:id="q3" prefHeight="33.0" prefWidth="2000.0" textFill="#030303">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+                  <RadioButton fx:id="b3op1" mnemonicParsing="false" onAction="#radio_bottun_clicked3" prefHeight="17.0" prefWidth="515.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="option3" />
+                     </toggleGroup></RadioButton>
+                  <RadioButton fx:id="b3op2" layoutX="15.0" layoutY="53.0" mnemonicParsing="false" onAction="#radio_bottun_clicked3" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option3">
+                     <font>
+                        <Font size="18.0" />
+                     </font></RadioButton>
+                  <RadioButton fx:id="b3op3" layoutX="15.0" layoutY="75.0" mnemonicParsing="false" onAction="#radio_bottun_clicked3" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option3">
+                     <font>
+                        <Font size="18.0" />
+                     </font></RadioButton>
+                  <RadioButton fx:id="b3op4" layoutX="15.0" layoutY="97.0" mnemonicParsing="false" onAction="#radio_bottun_clicked3" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option3">
+                     <font>
+                        <Font size="18.0" />
+                     </font></RadioButton>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </VBox>
+            <VBox prefHeight="84.0" prefWidth="2000.0" spacing="5.0">
+               <children>
+                  <Label fx:id="q4" prefHeight="33.0" prefWidth="2000.0" textFill="#030303">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="b4op1" mnemonicParsing="false" onAction="#radio_bottun_clicked4" prefHeight="17.0" prefWidth="515.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="option31" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="b4op2" layoutX="15.0" layoutY="53.0" mnemonicParsing="false" onAction="#radio_bottun_clicked3" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option31">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b4op3" layoutX="15.0" layoutY="75.0" mnemonicParsing="false" onAction="#radio_bottun_clicked4" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option31">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b4op4" layoutX="15.0" layoutY="97.0" mnemonicParsing="false" onAction="#radio_bottun_clicked4" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option31">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </VBox>
+            <VBox prefHeight="84.0" prefWidth="2000.0" spacing="5.0">
+               <children>
+                  <Label fx:id="q5" prefHeight="33.0" prefWidth="2000.0" textFill="#030303">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="b5op1" mnemonicParsing="false" onAction="#radio_bottun_clicked5" prefHeight="17.0" prefWidth="515.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="option311" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="b5op2" layoutX="15.0" layoutY="53.0" mnemonicParsing="false" onAction="#radio_bottun_clicked5" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option311">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b5op3" layoutX="15.0" layoutY="75.0" mnemonicParsing="false" onAction="#radio_bottun_clicked5" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option311">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b5op4" layoutX="15.0" layoutY="97.0" mnemonicParsing="false" onAction="#radio_bottun_clicked5" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option311">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </VBox>
+            <VBox prefHeight="84.0" prefWidth="2000.0" spacing="5.0">
+               <children>
+                  <Label fx:id="q6" prefHeight="33.0" prefWidth="2000.0" textFill="#030303">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="b6op1" mnemonicParsing="false" onAction="#radio_bottun_clicked6" prefHeight="17.0" prefWidth="515.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="option21" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="b6op2" layoutX="15.0" layoutY="53.0" mnemonicParsing="false" onAction="#radio_bottun_clicked6" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option21">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b6op3" layoutX="15.0" layoutY="75.0" mnemonicParsing="false" onAction="#radio_bottun_clicked6" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option21">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b6op4" layoutX="15.0" layoutY="97.0" mnemonicParsing="false" onAction="#radio_bottun_clicked6" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option21">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </VBox>
+            <VBox prefHeight="84.0" prefWidth="2000.0" spacing="5.0">
+               <children>
+                  <Label fx:id="q7" prefHeight="33.0" prefWidth="2000.0" textFill="#030303">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="b7op1" mnemonicParsing="false" onAction="#radio_bottun_clicked7" prefHeight="17.0" prefWidth="515.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="option22" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="b7op2" layoutX="15.0" layoutY="53.0" mnemonicParsing="false" onAction="#radio_bottun_clicked7" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option22">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b7op3" layoutX="15.0" layoutY="75.0" mnemonicParsing="false" onAction="#radio_bottun_clicked7" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option22">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b7op4" layoutX="15.0" layoutY="97.0" mnemonicParsing="false" onAction="#radio_bottun_clicked7" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option22">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </VBox>
+            <VBox prefHeight="84.0" prefWidth="2000.0" spacing="5.0">
+               <children>
+                  <Label fx:id="q8" prefHeight="33.0" prefWidth="2000.0" textFill="#030303">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="b8op1" mnemonicParsing="false" onAction="#radio_bottun_clicked8" prefHeight="17.0" prefWidth="515.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="option23" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="b8op2" layoutX="15.0" layoutY="53.0" mnemonicParsing="false" onAction="#radio_bottun_clicked8" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option23">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b8op3" layoutX="15.0" layoutY="75.0" mnemonicParsing="false" onAction="#radio_bottun_clicked8" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option23">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b8op4" layoutX="15.0" layoutY="97.0" mnemonicParsing="false" onAction="#radio_bottun_clicked8" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option23">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </VBox>
+            <VBox prefHeight="84.0" prefWidth="2000.0" spacing="5.0">
+               <children>
+                  <Label fx:id="q9" prefHeight="33.0" prefWidth="2000.0" textFill="#030303">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="b9op1" mnemonicParsing="false" onAction="#radio_bottun_clicked9" prefHeight="17.0" prefWidth="515.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="option24" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="b9op2" layoutX="15.0" layoutY="53.0" mnemonicParsing="false" onAction="#radio_bottun_clicked9" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option24">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b9op3" layoutX="15.0" layoutY="75.0" mnemonicParsing="false" onAction="#radio_bottun_clicked9" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option24">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b9op4" layoutX="15.0" layoutY="97.0" mnemonicParsing="false" onAction="#radio_bottun_clicked9" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option24">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </VBox>
+            <VBox prefHeight="84.0" prefWidth="2000.0" spacing="5.0">
+               <children>
+                  <Label fx:id="q10" prefHeight="33.0" prefWidth="2000.0" textFill="#030303">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="b10op1" mnemonicParsing="false" onAction="#radio_bottun_clicked10" prefHeight="17.0" prefWidth="515.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="option25" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="b10op2" layoutX="15.0" layoutY="53.0" mnemonicParsing="false" onAction="#radio_bottun_clicked10" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option25">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b10op3" layoutX="15.0" layoutY="75.0" mnemonicParsing="false" onAction="#radio_bottun_clicked10" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option25">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="b10op4" layoutX="15.0" layoutY="97.0" mnemonicParsing="false" onAction="#radio_bottun_clicked10" prefHeight="17.0" prefWidth="515.0" toggleGroup="$option25">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </RadioButton>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </VBox>
+         </children>
+      </VBox>
+   </content>
+</ScrollPane>

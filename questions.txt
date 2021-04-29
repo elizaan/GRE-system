@@ -1,0 +1,30 @@
+# Of the following, which is greater than ½ ?&2/5&4/7&4/9&5/11@2
+# If an object travels at five feet per second, how many feet does it travel in one hour?&30&720&1800&18000@4
+# What is the average (arithmetic mean) of all the multiples of ten from 10 to 190 inclusive?&90&95&100&105@3
+# A cubical block of metal weighs 6 pounds. How much will another cube of the same metal weigh if its sides are twice as long?&48&32&24&18@1
+# In a class of 78 students 41 are taking French, 22 are taking German. Of the students taking French or German, 9 are taking both courses. How many students are not enrolled in either course?&6&15&24&33@3
+# ( √2 - √3 )² =&5 - 2√6&5 - √6&1 - 2√6&1 - √2@1
+# 230 + 230 + 230 + 230 =&8120&830&232&230@3
+# Amy has to visit towns B and C in any order. The roads connecting these towns with her home are shown on the diagram. How many different routes can she take starting from A and returning to A, going through both B and C (but not more than once through each) and not travelling any road twice on the same trip?&10&8&6&4@2
+# Helpers are needed to prepare for the fete. Each helper can make either 2 large cakes or 35 small cakes per hour. The kitchen is available for 3 hours and 20 large cakes and 700 small cakes are needed. How many helpers are required?&10&15&25&30@1
+# Jo's collection contains US, Indian and British stamps. If the ratio of US to Indian stamps is 5 to 2 and the ratio of Indian to British stamps is 5 to 1, what is the ratio of US to British stamps?&5 : 1&15 : 2&20 : 2&25 : 2@4
+# A 3 by 4 rectangle is inscribed in circle. What is the circumference of the circle?&2.5π&3π&5π&4π@3
+# Two sets of 4 consecutive positive integers have exactly one integer in common. The sum of the integers in the set with greater numbers is how much greater than the sum of the integers in the other set?&4&7&8&12@4
+# A circular logo is enlarged to fit the lid of a jar. The new diameter is 50 per cent larger than the original. By what percentage has the area of the logo increased?&50&80&100&125@4
+# ABCD is a square of side 3, and E and F are the mid points of sides AB and BC respectively. What is the area of the quadrilateral EBFD ?&2.25&3&4&4.5@4
+# After being dropped a certain ball always bounces back to 2/5 of the height of its previous bounce. After the first bounce it reaches a height of 125 inches. How high (in inches) will it reach after its fourth bounce?&20&15&8&5@3
+# n and p are integers greater than 1, 5n is the square of a number, 75np is the cube of a number. The smallest value for n + p is&14&18&20&30@1
+# √5 percent of 5√5 =&0.05&0.25&0.5&2.5@2
+# -20 , -16 , -12 , -8 ....In the sequence above, each term after the first is 4 greater than the preceding term. Which of the following could not be a term in the sequence?&200&440&668&762@4
+# For how many integer values of n will the value of the expression 4n + 7 be an integer greater than 1 and less than 200?&48&49&50&51@3
+# 12 litres of water are poured into an aquarium of dimensions 50cm length, 30cm breadth, and 40cm height. How high (in cm) will the water rise?(1 litre = 1000cm³)&6&8&10&20@2
+# Six years ago Anita was P times as old as Ben was. If Anita is now 17 years old, how old is Ben now in terms of P ?&11/P + 6&P/11 +6&17 - P/6&17/P@1
+# If a² = 12, then a4 =&144&72&36&24@1
+# If n is even, which of the following cannot be odd?&n + 3&3n&n² - 1&2(n + 1)@2
+# One side of a triangle has length 8 and a second side has length 5. Which of the following could be the area of the triangle?&24&20&5&18@2
+# A certain animal in the zoo has consumed 39 pounds of food in six days. If it continues to eat at the same rate, in how many more days will its total consumption be 91 pounds?&12&10&9&8@4
+# A perfect cube is an integer whose cube root is an integer. For example, 27, 64 and 125 are perfect cubes. If p and q are perfect cubes, which of the following will not necessarily be a perfect cube?&8p&pq&pq + 27&-p@3
+# Half the people on a bus get off at each stop after the first, and no one gets on after the first stop. If only one person gets off at stop number 7, how many people got on at the first stop?&128&64&32&16@2
+# n is an integer chosen at random from the set {5, 7, 9, 11 }, p is chosen at random from the set {2, 6, 10, 14, 18}. What is the probability that n + p = 23 ?&0.1&0.2&0.25&0.3@1
+# A dress on sale in a shop is marked at $D. During the discount sale its price is reduced by 15%. Staff are allowed a further 10% reduction on the discounted price. If a staff member buys the dress what will she have to pay in terms of D ?&0.75D&0.76D&0.765D&0.775D@3
+# All the dots in the array are 2 units apart vertically and horizontally. What is the length of the longest line segment that can be drawn joining any two points in the array without passing through any other point ?&2√2&3&√10&√20@4

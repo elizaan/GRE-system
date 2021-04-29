@@ -1,0 +1,30 @@
+# Which one is correct?&Always he arrives at 2:30&He arrives at always 2:30&He always arrives at 2:30&He always at 2:30 arrives@1
+# Which syntax is grammatically correct?&Where playing Real Madrid?&Where is playing Real Madrid?&Where is Real Madrid playing?&Where playing is Real Madrid?@3
+# George..... fly to Stockholm tomorrow.&to going&goes to&is going to&go to@3
+# David is the boss, you need to speak to …..&it&him&her&them@2
+# I wanted an orange car, but they only had .....&a one red&one red&a red one&a red@3
+# She …….. Supper with us last Friday&hadn’t&no had&didn’t have got&didn’t have@4
+# The party was a disaster. There ..... there!&wasn’t nobody&was anybody&was nobody&was somebody@3
+# ..... sugar for my coffee!&There aren't any&There is any&There isn’t no&There isn't any@4
+# There is .......... of beer left from the party&little&much&a lot&too@3
+# Michael.........Paris in the morning&to leaving&leaves for&is leaving for&leave to@3
+# Which pen do you want?&A one blue&One blue&The one blue&The blue one@4
+# Which one is correct?&Arrives Philip late never.&Late,Philip never arrives&Philip arrives late never&Philip never arrives late.@4
+# Suddenly, we heard a loud noise, but outside, there ........there!&was nobody&is anybody&wasn't nobody&was somebody@1
+# ..... orange juice in the fridge.&There isn’t no&There is any&There isn’t any&There aren’t no@3
+# I have class …..&on Mondays&in Mondays&at Mondays&by Mondays@1
+# John is the manager, you need to speak to …..&it&him&her&them@2
+# I have to go to the bank ..... some money.&for getting&to get&to getting&for to get@2
+# Don’t start ..... That's for babies!&to crying!&crying!&cry!&in crying!@2
+# He works for the Bank, .....?&doesn’t he?&&does he?&isn’t he?&didn’t he?@1
+# If I lived in the mountains, I …….. a dog.&will buy&have bought&would buy&would have bought@3
+# “..... have you been going out with him?” “Only a few months”&How long&How long time&What time&For how long@1
+# On a windy morning, I arrived ..... Chicago Airport.&in&on&at&by@3
+# We were surprised that there ..... queues outside the cinema&were any&weren't no&were no&were not@3
+# Have you made supper ..… ?&already&still&now&yet@4
+# If I didn't have to work, I …….. the beach.&will move to&have moved to&would move to&would have moved to@3
+# Have you phoned the restaurant about the booking? Yes, I’ve …..done that.&still&already&yet&now@2
+# “.....have they been living in Paris?” “Only a few months”&How long&How long time&What time&For how long@1
+# They weren’t invited to the party, and nor .... I.&weren’t&was&were&wasn't@2
+# We can’t get there by 3:00pm. There is ..... time.&few&too little&too much little&too few@2
+# He arrived ..... Heathrow airport on Friday morning.&in&at&on&by@2
